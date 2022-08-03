@@ -8,7 +8,7 @@ body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   margin: 0;
-  background: #111;
+  background: rgb(38, 38, 43);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -26,10 +26,9 @@ body {
   border-radius: 20px;
   margin: 10px;
   cursor: pointer;
-  color: white;
   flex: 1;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   position: relative;
   transition: 500ms ease-in-out;
@@ -37,8 +36,9 @@ body {
 
 .slide h3 {
   position: absolute;
+  color: #111;
   font-size: 24px;
-  bottom: 20px;
+  top: 20px;
   left: 20px;
   margin: 0;
   opacity: 0;
